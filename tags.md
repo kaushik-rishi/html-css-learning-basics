@@ -1,13 +1,15 @@
-functional tags
+## HTML Tags
+
+### functional tags
 - input (v.imp)
 - form (v.v.v.v.vimp)
 - table (fine'ish)
 
-configuration options unna design tags
+### configuration options unna design tags
 - a
 - img
 
-ui types
+### ui types
 - ul, ol, li
 - div
 - nav
@@ -15,6 +17,6 @@ ui types
 - article
 - h1, h2, ...
 
-meta tags
+### meta tags
 - link
 - script
