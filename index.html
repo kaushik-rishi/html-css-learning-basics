@@ -33,18 +33,18 @@
 
     <!-- TODO: learn about action later -->
     <!-- TODO: explore other attributes of form -->
-    <form>
+    <form id="register-form">
         <label for="username">Username of the user</label>
-        <input type="text" name="username">
+        <input type="text" name="username" required>
 
         <br>
 
         <label for="password">Password</label>
-        <input type="password" name="password">
+        <input type="password" name="password" required>
 
         <br>
         <label for="repeat-password">Confirm the password again</label>
-        <input type="password" name="repeat-password">
+        <input type="password" name="repeat-password" required>
 
         <br>
         <button type="submit">Register user</button>
@@ -52,6 +52,8 @@
 
     <br><br><br>
     <!-- ul#my-ul>li.my-li*10>p -->
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
